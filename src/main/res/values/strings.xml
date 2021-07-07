@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">lenguajemx</string>
+    <string name="solmain">padres</string>
+    <string name="nivel3">nivel3</string>
+    <string name="nivel2">nivel2</string>
+    <string name="nivel1">nivel1</string>
+    <string name="tvbtnpadres">Área de padres</string>
+    <string name="tvnomapp">  TERAFON  </string>
+    <string name="marco1">imagen</string>
+    <string name="marco2">imagen</string>
+    <string name="marco3">imagen</string>
+    <string name="marco4">imagen</string>
+    <string name="tvjuegoenc">Encuéntrame</string>
+    <string name="n1ejer">Ejercicio: </string>
+    <string name="canejer"> 1 </string>
+    <string name="tvretmenuenc"> Menú principal </string>
+    <string name="tvretmenuque"> Menú principal </string>
+</resources>

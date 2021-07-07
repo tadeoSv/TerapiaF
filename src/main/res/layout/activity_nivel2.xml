@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/fondob"
+    tools:context=".nivel2">
+
+    <TextView
+        android:id="@+id/n1ejer4"
+        android:layout_width="76dp"
+        android:layout_height="31dp"
+        android:text="@string/n1ejer"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toEndOf="@+id/labelQuesoy"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/canejer3"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:text="@string/canejer"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toEndOf="@+id/n1ejer4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/tvretmenuque"
+        android:layout_width="75dp"
+        android:layout_height="47dp"
+        android:onClick="menu"
+        android:text="@string/tvretmenuque"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/labelQuesoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué soy?"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <ImageView
+        android:id="@+id/marcosoy"
+        android:layout_width="384dp"
+        android:layout_height="209dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/elefante" />
+
+    <TextView
+        android:id="@+id/traductor"
+        android:layout_width="115dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="308dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marcosoy"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="72dp"
+        android:layout_height="69dp"
+        android:onClick="Hablar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/marcosoy"
+        app:layout_constraintTop_toBottomOf="@+id/tvretmenuque"
+        app:layout_constraintVertical_bias="0.858"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

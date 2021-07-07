@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#9403A9F4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/nivel2"
+        android:layout_width="218dp"
+        android:layout_height="153dp"
+        android:contentDescription="@string/nivel2"
+        android:onClick="n2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674"
+        app:srcCompat="@drawable/qq" />
+
+    <ImageView
+        android:id="@+id/nivel1"
+        android:layout_width="215dp"
+        android:layout_height="149dp"
+        android:contentDescription="@string/nivel1"
+        android:onClick="n1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941"
+        app:srcCompat="@drawable/lenc" />
+
+    <ImageView
+        android:id="@+id/nivel3"
+        android:layout_width="213dp"
+        android:layout_height="153dp"
+        android:contentDescription="@string/nivel3"
+        android:onClick="n3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toEndOf="@+id/nivel1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+        app:srcCompat="@drawable/gatpat" />
+
+    <ImageView
+        android:id="@+id/solmain"
+        android:layout_width="188dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/solmain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/sool" />
+
+    <TextView
+        android:id="@+id/tvbtnpadres"
+        android:layout_width="124dp"
+        android:layout_height="26dp"
+        android:onClick="areaPadres"
+        android:text="@string/tvbtnpadres"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/tvnomapp"
+        android:layout_width="307dp"
+        android:layout_height="33dp"
+        android:text="@string/tvnomapp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
